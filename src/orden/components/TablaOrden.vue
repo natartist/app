@@ -25,7 +25,7 @@
       class="btn mb-2 mt-2"
       :to="`/orden/${ordenTable.id}`"
      >
-      Ver detalle
+      Ver
      </router-link></td>
     </tr>  
     

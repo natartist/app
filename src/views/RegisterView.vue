@@ -1,6 +1,6 @@
 <template>
    <div class="container">
-     <h1>Ingresa tus datos para registro</h1>
+     <h1>Datos para registro</h1>
     <div class="row">
       <div class="col-4 offset-4">
         <form @submit.prevent="registroUsuario({email: email, password: password})">
@@ -58,18 +58,27 @@ methods: {
   margin-top: 20px;
   color: gray;
 }
+.col-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 h1 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 form {
-  margin-top: 50px
+  margin-top: 50px;
+  padding-left: 00px;
 }
 .label {
   color: gray;
   font-family: 'Quicksand', sans-serif;
   
+}
+input {
+  width: 200px
 }
 .btn {
   color: gray;
